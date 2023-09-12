@@ -16,6 +16,7 @@ namespace ChartsAndDataTable
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Sjekk databasen Arthurs på vår felles dbserver.
             //Table Stemme. 1 row only
             //demo for db der det er kun en rad og kolonneoverskrifter er partinavn
             //   CREATE TABLE[dbo].[Stemme] (
